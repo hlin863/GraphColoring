@@ -11,6 +11,9 @@ n_generations = 50
 
 _, adjacency_list = generate_random_graph(number_of_nodes, probability_of_edge)
 
+# display the type of adjacency_list
+# print(adjacency_list)
+
 initial_population = generate_random_initial_population(
     population_size, number_of_nodes, adjacency_list)
 
